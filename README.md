@@ -9,3 +9,6 @@
 4. All the input data used for the web is under the RESOURCE > config.properites
 5. All the input data usef for the api is under the RESOURCE > apiData and RESOURCE > JsonRequests.
 6. You will find the html report being genertaed under the folder REPORT.
+
+#BrowserInstructions
+1. Make sure you have the latest chrome browser as i am using WebdriverManager
