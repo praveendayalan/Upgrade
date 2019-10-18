@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 18 17:41:22 EDT 2019</td>
+</tr>
+<tr><td>Total time:</td><td>34 seconds (34483 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.Upgrade.test.CheckYourRateTest.TC_01_landingPageurlValidation()'><b>TC_01_landingPageurlValidation</b><br>Test class: com.Upgrade.test.CheckYourRateTest<br>Test method: TC01: Verify whether the ladning page url is correct </td>
+<td></td>
+<td>6</td>
+<td>com.Upgrade.test.CheckYourRateTest@7ac7a4e4</td></tr>
+<tr>
+<td title='com.Upgrade.test.CheckYourRateTest.TC_02_emptyField_Validation()'><b>TC_02_emptyField_Validation</b><br>Test class: com.Upgrade.test.CheckYourRateTest<br>Test method: TC02: Validate the Check your Rate does not accept empty field</td>
+<td></td>
+<td>0</td>
+<td>com.Upgrade.test.CheckYourRateTest@7ac7a4e4</td></tr>
+<tr>
+<td title='com.Upgrade.test.CheckYourRateTest.TC_03_loanAmount_Validation()'><b>TC_03_loanAmount_Validation</b><br>Test class: com.Upgrade.test.CheckYourRateTest<br>Test method: TC03: Validate the loan amount does not accept below 1000 and above 50000</td>
+<td></td>
+<td>0</td>
+<td>com.Upgrade.test.CheckYourRateTest@7ac7a4e4</td></tr>
+<tr>
+<td title='com.Upgrade.test.CheckYourRateTest.TC_04_checkYourRate_Validation()'><b>TC_04_checkYourRate_Validation</b><br>Test class: com.Upgrade.test.CheckYourRateTest<br>Test method: TC04: Validate Check your Rate functionality</td>
+<td></td>
+<td>0</td>
+<td>com.Upgrade.test.CheckYourRateTest@7ac7a4e4</td></tr>
+<tr>
+<td title='com.Upgrade.test.CreateAccountTest.TC_05_basicInformation_Validation()'><b>TC_05_basicInformation_Validation</b><br>Test class: com.Upgrade.test.CreateAccountTest<br>Test method: TC05: Validate whether the user can enter Basic Information and create an account</td>
+<td></td>
+<td>4</td>
+<td>com.Upgrade.test.CreateAccountTest@6d78f375</td></tr>
+<tr>
+<td title='com.Upgrade.test.PayOffOfferTest.TC_06_offerPageUrl_Validation()'><b>TC_06_offerPageUrl_Validation</b><br>Test class: com.Upgrade.test.PayOffOfferTest<br>Test method: Validate whether the landing page is  OfferPageUrl</td>
+<td></td>
+<td>3</td>
+<td>com.Upgrade.test.PayOffOfferTest@50c87b21</td></tr>
+<tr>
+<td title='com.Upgrade.test.PayOffOfferTest.TC_07_signOut_Validation()'><b>TC_07_signOut_Validation</b><br>Test class: com.Upgrade.test.PayOffOfferTest<br>Test method: Validate whether the logout is successful</td>
+<td></td>
+<td>5</td>
+<td>com.Upgrade.test.PayOffOfferTest@50c87b21</td></tr>
+<tr>
+<td title='com.Upgrade.test.LoginTest.TC_08_loginUrl_validation()'><b>TC_08_loginUrl_validation</b><br>Test class: com.Upgrade.test.LoginTest<br>Test method: TC08: Validate the login page Url</td>
+<td></td>
+<td>1</td>
+<td>com.Upgrade.test.LoginTest@5f375618</td></tr>
+<tr>
+<td title='com.Upgrade.test.LoginTest.TC_09_manadatoryField_Validation()'><b>TC_09_manadatoryField_Validation</b><br>Test class: com.Upgrade.test.LoginTest<br>Test method: TC09: Validate the Mandatory Error fields in the login page</td>
+<td></td>
+<td>0</td>
+<td>com.Upgrade.test.LoginTest@5f375618</td></tr>
+<tr>
+<td title='com.Upgrade.test.LoginTest.TC_10_incorrectField_Validation()'><b>TC_10_incorrectField_Validation</b><br>Test class: com.Upgrade.test.LoginTest<br>Test method: TC10: Validate whether the incorrect credentials error messages are displayed</td>
+<td></td>
+<td>1</td>
+<td>com.Upgrade.test.LoginTest@5f375618</td></tr>
+<tr>
+<td title='com.Upgrade.test.LoginTest.TC_11_SigninSuccess_Validation()'><b>TC_11_SigninSuccess_Validation</b><br>Test class: com.Upgrade.test.LoginTest<br>Test method: TC11: validate whether the loign is successful</td>
+<td></td>
+<td>3</td>
+<td>com.Upgrade.test.LoginTest@5f375618</td></tr>
+<tr>
+<td title='com.Upgrade.test.PayOffOfferPostLoginTest.TC_12_usrloanAmount_Validation()'><b>TC_12_usrloanAmount_Validation</b><br>Test class: com.Upgrade.test.PayOffOfferPostLoginTest<br>Test method: TC12: Validate the loan Amount</td>
+<td></td>
+<td>0</td>
+<td>com.Upgrade.test.PayOffOfferPostLoginTest@1810399e</td></tr>
+<tr>
+<td title='com.Upgrade.test.PayOffOfferPostLoginTest.TC_13_usrMonthlyPayment_Validation()'><b>TC_13_usrMonthlyPayment_Validation</b><br>Test class: com.Upgrade.test.PayOffOfferPostLoginTest<br>Test method: TC13: Validate the Monthly Payment</td>
+<td></td>
+<td>0</td>
+<td>com.Upgrade.test.PayOffOfferPostLoginTest@1810399e</td></tr>
+<tr>
+<td title='com.Upgrade.test.PayOffOfferPostLoginTest.TC_14_usrLoanTerm()'><b>TC_14_usrLoanTerm</b><br>Test class: com.Upgrade.test.PayOffOfferPostLoginTest<br>Test method: TC14: Validate the loan Term</td>
+<td></td>
+<td>0</td>
+<td>com.Upgrade.test.PayOffOfferPostLoginTest@1810399e</td></tr>
+<tr>
+<td title='com.Upgrade.test.PayOffOfferPostLoginTest.TC_15_usrInterestRate_Validation()'><b>TC_15_usrInterestRate_Validation</b><br>Test class: com.Upgrade.test.PayOffOfferPostLoginTest<br>Test method: TC15: Validate the Interest Rate</td>
+<td></td>
+<td>0</td>
+<td>com.Upgrade.test.PayOffOfferPostLoginTest@1810399e</td></tr>
+<tr>
+<td title='com.Upgrade.test.PayOffOfferPostLoginTest.TC_16_usrApr_Validation()'><b>TC_16_usrApr_Validation</b><br>Test class: com.Upgrade.test.PayOffOfferPostLoginTest<br>Test method: TC16: Validate the APR</td>
+<td></td>
+<td>0</td>
+<td>com.Upgrade.test.PayOffOfferPostLoginTest@1810399e</td></tr>
+<tr>
+<td title='com.Upgrade.test.LoginApiTest.TC_17_loginAPI_SuccessCodeValidation()'><b>TC_17_loginAPI_SuccessCodeValidation</b><br>Test class: com.Upgrade.test.LoginApiTest<br>Test method: TC17: Validate the login api retruns success status code 200</td>
+<td></td>
+<td>0</td>
+<td>com.Upgrade.test.LoginApiTest@32d992b2</td></tr>
+<tr>
+<td title='com.Upgrade.test.LoginApiTest.TC_18_loginAPI_ErrorCodeValidation()'><b>TC_18_loginAPI_ErrorCodeValidation</b><br>Test class: com.Upgrade.test.LoginApiTest<br>Test method: TC18: Validate whether the error code 401 is displayed for invlaid credentials</td>
+<td></td>
+<td>2</td>
+<td>com.Upgrade.test.LoginApiTest@32d992b2</td></tr>
+<tr>
+<td title='com.Upgrade.test.LoginApiTest.TC_19_loginAPI_AttributeValidation()'><b>TC_19_loginAPI_AttributeValidation</b><br>Test class: com.Upgrade.test.LoginApiTest<br>Test method: TC19: Validate whether the response returns the correct attribute</td>
+<td></td>
+<td>1</td>
+<td>com.Upgrade.test.LoginApiTest@32d992b2</td></tr>
+<tr>
+<td title='com.Upgrade.test.CreateAccountTest.TC_20_emailFieldValidation()'><b>TC_20_emailFieldValidation</b><br>Test class: com.Upgrade.test.CreateAccountTest<br>Test method: TC20: Validate Email field whether it doesn't accepts an in-valid email</td>
+<td></td>
+<td>0</td>
+<td>com.Upgrade.test.CreateAccountTest@6d78f375</td></tr>
+<tr>
+<td title='com.Upgrade.test.CreateAccountTest.TC_21_passwordFieldValidation()'><b>TC_21_passwordFieldValidation</b><br>Test class: com.Upgrade.test.CreateAccountTest<br>Test method: TC21: Validate password field whether it doesn't  accepts an in- valid password</td>
+<td></td>
+<td>0</td>
+<td>com.Upgrade.test.CreateAccountTest@6d78f375</td></tr>
+</table><p>
+</body>
+</html>

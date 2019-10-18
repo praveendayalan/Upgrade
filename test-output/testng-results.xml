@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4426" started-at="2019-10-17T22:08:27Z" finished-at="2019-10-17T22:08:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4426" started-at="2019-10-17T22:08:27Z" finished-at="2019-10-17T22:08:31Z">
+      <class name="com.Upgrade.test.LoginApiTest">
+        <test-method status="PASS" signature="loadDriver(java.lang.String)[pri:0, instance:com.Upgrade.test.LoginApiTest@3f49dace]" name="loadDriver" is-config="true" duration-ms="7209" started-at="2019-10-17T22:08:20Z" finished-at="2019-10-17T22:08:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadDriver -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.Upgrade.test.LoginApiTest@3f49dace]" name="initialize" is-config="true" duration-ms="4" started-at="2019-10-17T22:08:27Z" finished-at="2019-10-17T22:08:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.LoginApiTest@3f49dace]" name="startTest" is-config="true" duration-ms="5" started-at="2019-10-17T22:08:27Z" finished-at="2019-10-17T22:08:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.LoginApiTest.loginAPI_SuccessCodeValidation() throws java.io.FileNotFoundException,java.io.IOException,org.json.simple.parser.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="loginAPI_SuccessCodeValidation()[pri:16, instance:com.Upgrade.test.LoginApiTest@3f49dace]" name="loginAPI_SuccessCodeValidation" duration-ms="2747" started-at="2019-10-17T22:08:27Z" description="Validate the login api retruns success status code 200" finished-at="2019-10-17T22:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAPI_SuccessCodeValidation -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.LoginApiTest@3f49dace]" name="endTestAndGetResult" is-config="true" duration-ms="30" started-at="2019-10-17T22:08:30Z" finished-at="2019-10-17T22:08:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAPI_SuccessCodeValidation status=SUCCESS method=LoginApiTest.loginAPI_SuccessCodeValidation()[pri:16, instance:com.Upgrade.test.LoginApiTest@3f49dace] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="loginAPI_ErrorCodeValidation()[pri:17, instance:com.Upgrade.test.LoginApiTest@3f49dace]" name="loginAPI_ErrorCodeValidation" duration-ms="719" started-at="2019-10-17T22:08:30Z" description="Validate whether the error code 401 is displayed for invlaid credentials" finished-at="2019-10-17T22:08:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAPI_ErrorCodeValidation -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.LoginApiTest@3f49dace]" name="startTest" is-config="true" duration-ms="0" started-at="2019-10-17T22:08:30Z" finished-at="2019-10-17T22:08:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.LoginApiTest.loginAPI_ErrorCodeValidation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.LoginApiTest@3f49dace]" name="endTestAndGetResult" is-config="true" duration-ms="0" started-at="2019-10-17T22:08:31Z" finished-at="2019-10-17T22:08:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAPI_ErrorCodeValidation status=SUCCESS method=LoginApiTest.loginAPI_ErrorCodeValidation()[pri:17, instance:com.Upgrade.test.LoginApiTest@3f49dace] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.LoginApiTest@3f49dace]" name="startTest" is-config="true" duration-ms="1" started-at="2019-10-17T22:08:31Z" finished-at="2019-10-17T22:08:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.LoginApiTest.loginAPI_AttributeValidation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="loginAPI_AttributeValidation()[pri:18, instance:com.Upgrade.test.LoginApiTest@3f49dace]" name="loginAPI_AttributeValidation" duration-ms="892" started-at="2019-10-17T22:08:31Z" description="Validate whether the response returns the correct attribute" finished-at="2019-10-17T22:08:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAPI_AttributeValidation -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.LoginApiTest@3f49dace]" name="endTestAndGetResult" is-config="true" duration-ms="0" started-at="2019-10-17T22:08:31Z" finished-at="2019-10-17T22:08:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAPI_AttributeValidation status=SUCCESS method=LoginApiTest.loginAPI_AttributeValidation()[pri:18, instance:com.Upgrade.test.LoginApiTest@3f49dace] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="tearDownDriver()[pri:0, instance:com.Upgrade.test.LoginApiTest@3f49dace]" name="tearDownDriver" is-config="true" duration-ms="485" started-at="2019-10-17T22:08:31Z" finished-at="2019-10-17T22:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- com.Upgrade.test.LoginApiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

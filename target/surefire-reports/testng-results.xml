@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="10" total="31" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34483" started-at="2019-10-18T21:41:22Z" finished-at="2019-10-18T21:41:57Z">
+    <groups>
+      <group name="CreateAccountTest">
+        <method signature="CreateAccountTest.TC_20_emailFieldValidation()[pri:0, instance:com.Upgrade.test.CreateAccountTest@6d78f375]" name="TC_20_emailFieldValidation" class="com.Upgrade.test.CreateAccountTest"/>
+        <method signature="CreateAccountTest.TC_21_passwordFieldValidation()[pri:0, instance:com.Upgrade.test.CreateAccountTest@6d78f375]" name="TC_21_passwordFieldValidation" class="com.Upgrade.test.CreateAccountTest"/>
+        <method signature="CreateAccountTest.TC_05_basicInformation_Validation()[pri:0, instance:com.Upgrade.test.CreateAccountTest@6d78f375]" name="TC_05_basicInformation_Validation" class="com.Upgrade.test.CreateAccountTest"/>
+      </group> <!-- CreateAccountTest -->
+      <group name="CheckYourRateTest">
+        <method signature="CheckYourRateTest.TC_01_landingPageurlValidation()[pri:0, instance:com.Upgrade.test.CheckYourRateTest@7ac7a4e4]" name="TC_01_landingPageurlValidation" class="com.Upgrade.test.CheckYourRateTest"/>
+        <method signature="CheckYourRateTest.TC_02_emptyField_Validation()[pri:0, instance:com.Upgrade.test.CheckYourRateTest@7ac7a4e4]" name="TC_02_emptyField_Validation" class="com.Upgrade.test.CheckYourRateTest"/>
+        <method signature="CheckYourRateTest.TC_03_loanAmount_Validation()[pri:0, instance:com.Upgrade.test.CheckYourRateTest@7ac7a4e4]" name="TC_03_loanAmount_Validation" class="com.Upgrade.test.CheckYourRateTest"/>
+        <method signature="CheckYourRateTest.TC_04_checkYourRate_Validation()[pri:0, instance:com.Upgrade.test.CheckYourRateTest@7ac7a4e4]" name="TC_04_checkYourRate_Validation" class="com.Upgrade.test.CheckYourRateTest"/>
+      </group> <!-- CheckYourRateTest -->
+      <group name="PayOffOfferTest">
+        <method signature="PayOffOfferTest.TC_06_offerPageUrl_Validation()[pri:0, instance:com.Upgrade.test.PayOffOfferTest@50c87b21]" name="TC_06_offerPageUrl_Validation" class="com.Upgrade.test.PayOffOfferTest"/>
+        <method signature="PayOffOfferTest.TC_07_signOut_Validation()[pri:0, instance:com.Upgrade.test.PayOffOfferTest@50c87b21]" name="TC_07_signOut_Validation" class="com.Upgrade.test.PayOffOfferTest"/>
+      </group> <!-- PayOffOfferTest -->
+      <group name="LoginApiTest">
+        <method signature="LoginApiTest.TC_18_loginAPI_ErrorCodeValidation()[pri:0, instance:com.Upgrade.test.LoginApiTest@32d992b2]" name="TC_18_loginAPI_ErrorCodeValidation" class="com.Upgrade.test.LoginApiTest"/>
+        <method signature="LoginApiTest.TC_19_loginAPI_AttributeValidation()[pri:0, instance:com.Upgrade.test.LoginApiTest@32d992b2]" name="TC_19_loginAPI_AttributeValidation" class="com.Upgrade.test.LoginApiTest"/>
+        <method signature="LoginApiTest.TC_17_loginAPI_SuccessCodeValidation()[pri:0, instance:com.Upgrade.test.LoginApiTest@32d992b2]" name="TC_17_loginAPI_SuccessCodeValidation" class="com.Upgrade.test.LoginApiTest"/>
+      </group> <!-- LoginApiTest -->
+      <group name="LoginTest">
+        <method signature="LoginTest.TC_08_loginUrl_validation()[pri:0, instance:com.Upgrade.test.LoginTest@5f375618]" name="TC_08_loginUrl_validation" class="com.Upgrade.test.LoginTest"/>
+        <method signature="LoginTest.TC_09_manadatoryField_Validation()[pri:0, instance:com.Upgrade.test.LoginTest@5f375618]" name="TC_09_manadatoryField_Validation" class="com.Upgrade.test.LoginTest"/>
+        <method signature="LoginTest.TC_10_incorrectField_Validation()[pri:0, instance:com.Upgrade.test.LoginTest@5f375618]" name="TC_10_incorrectField_Validation" class="com.Upgrade.test.LoginTest"/>
+        <method signature="LoginTest.TC_11_SigninSuccess_Validation()[pri:0, instance:com.Upgrade.test.LoginTest@5f375618]" name="TC_11_SigninSuccess_Validation" class="com.Upgrade.test.LoginTest"/>
+      </group> <!-- LoginTest -->
+      <group name="PayOffOfferPostLoginTest">
+        <method signature="PayOffOfferPostLoginTest.TC_12_usrloanAmount_Validation()[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e]" name="TC_12_usrloanAmount_Validation" class="com.Upgrade.test.PayOffOfferPostLoginTest"/>
+        <method signature="PayOffOfferPostLoginTest.TC_13_usrMonthlyPayment_Validation()[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e]" name="TC_13_usrMonthlyPayment_Validation" class="com.Upgrade.test.PayOffOfferPostLoginTest"/>
+        <method signature="PayOffOfferPostLoginTest.TC_14_usrLoanTerm()[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e]" name="TC_14_usrLoanTerm" class="com.Upgrade.test.PayOffOfferPostLoginTest"/>
+        <method signature="PayOffOfferPostLoginTest.TC_15_usrInterestRate_Validation()[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e]" name="TC_15_usrInterestRate_Validation" class="com.Upgrade.test.PayOffOfferPostLoginTest"/>
+        <method signature="PayOffOfferPostLoginTest.TC_16_usrApr_Validation()[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e]" name="TC_16_usrApr_Validation" class="com.Upgrade.test.PayOffOfferPostLoginTest"/>
+      </group> <!-- PayOffOfferPostLoginTest -->
+    </groups>
+    <test name="Test" duration-ms="34483" started-at="2019-10-18T21:41:22Z" finished-at="2019-10-18T21:41:57Z">
+      <class name="com.Upgrade.test.PayOffOfferTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.Upgrade.test.PayOffOfferTest@50c87b21]" name="initialize" is-config="true" duration-ms="2" started-at="2019-10-18T21:41:36Z" finished-at="2019-10-18T21:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.PayOffOfferTest@50c87b21]" name="startTest" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:36Z" finished-at="2019-10-18T21:41:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.PayOffOfferTest.TC_06_offerPageUrl_Validation() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="TC_06_offerPageUrl_Validation()[pri:0, instance:com.Upgrade.test.PayOffOfferTest@50c87b21]" name="TC_06_offerPageUrl_Validation" duration-ms="3260" depends-on-groups="CreateAccountTest, CheckYourRateTest" started-at="2019-10-18T21:41:36Z" description="Validate whether the landing page is  OfferPageUrl" finished-at="2019-10-18T21:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06_offerPageUrl_Validation -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.PayOffOfferTest@50c87b21]" name="endTestAndGetResult" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:39Z" finished-at="2019-10-18T21:41:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_06_offerPageUrl_Validation status=SUCCESS method=PayOffOfferTest.TC_06_offerPageUrl_Validation()[pri:0, instance:com.Upgrade.test.PayOffOfferTest@50c87b21] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="TC_07_signOut_Validation()[pri:0, instance:com.Upgrade.test.PayOffOfferTest@50c87b21]" name="TC_07_signOut_Validation" duration-ms="5521" started-at="2019-10-18T21:41:39Z" description="Validate whether the logout is successful" depends-on-methods="com.Upgrade.test.PayOffOfferTest.TC_06_offerPageUrl_Validation" finished-at="2019-10-18T21:41:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_07_signOut_Validation -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.PayOffOfferTest@50c87b21]" name="startTest" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:39Z" finished-at="2019-10-18T21:41:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.PayOffOfferTest.TC_07_signOut_Validation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.PayOffOfferTest@50c87b21]" name="endTestAndGetResult" is-config="true" duration-ms="1" started-at="2019-10-18T21:41:45Z" finished-at="2019-10-18T21:41:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_07_signOut_Validation status=SUCCESS method=PayOffOfferTest.TC_07_signOut_Validation()[pri:0, instance:com.Upgrade.test.PayOffOfferTest@50c87b21] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+      </class> <!-- com.Upgrade.test.PayOffOfferTest -->
+      <class name="com.Upgrade.test.PayOffOfferPostLoginTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e]" name="initialize" is-config="true" duration-ms="2" started-at="2019-10-18T21:41:52Z" finished-at="2019-10-18T21:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="TC_12_usrloanAmount_Validation()[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e]" name="TC_12_usrloanAmount_Validation" duration-ms="98" depends-on-groups="CreateAccountTest, CheckYourRateTest, PayOffOfferTest, LoginTest" started-at="2019-10-18T21:41:52Z" description="TC12: Validate the loan Amount" finished-at="2019-10-18T21:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_12_usrloanAmount_Validation -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e]" name="startTest" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:52Z" finished-at="2019-10-18T21:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.PayOffOfferPostLoginTest.TC_12_usrloanAmount_Validation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e]" name="endTestAndGetResult" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:52Z" finished-at="2019-10-18T21:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_12_usrloanAmount_Validation status=SUCCESS method=PayOffOfferPostLoginTest.TC_12_usrloanAmount_Validation()[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="TC_13_usrMonthlyPayment_Validation()[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e]" name="TC_13_usrMonthlyPayment_Validation" duration-ms="66" started-at="2019-10-18T21:41:52Z" description="TC13: Validate the Monthly Payment" depends-on-methods="com.Upgrade.test.PayOffOfferPostLoginTest.TC_12_usrloanAmount_Validation" finished-at="2019-10-18T21:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_13_usrMonthlyPayment_Validation -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e]" name="startTest" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:52Z" finished-at="2019-10-18T21:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.PayOffOfferPostLoginTest.TC_13_usrMonthlyPayment_Validation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e]" name="startTest" is-config="true" duration-ms="1" started-at="2019-10-18T21:41:52Z" finished-at="2019-10-18T21:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.PayOffOfferPostLoginTest.TC_14_usrLoanTerm()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e]" name="endTestAndGetResult" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:52Z" finished-at="2019-10-18T21:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_13_usrMonthlyPayment_Validation status=SUCCESS method=PayOffOfferPostLoginTest.TC_13_usrMonthlyPayment_Validation()[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="TC_14_usrLoanTerm()[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e]" name="TC_14_usrLoanTerm" duration-ms="79" started-at="2019-10-18T21:41:52Z" description="TC14: Validate the loan Term" depends-on-methods="com.Upgrade.test.PayOffOfferPostLoginTest.TC_13_usrMonthlyPayment_Validation" finished-at="2019-10-18T21:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_14_usrLoanTerm -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e]" name="endTestAndGetResult" is-config="true" duration-ms="1" started-at="2019-10-18T21:41:52Z" finished-at="2019-10-18T21:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_14_usrLoanTerm status=SUCCESS method=PayOffOfferPostLoginTest.TC_14_usrLoanTerm()[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e]" name="startTest" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:52Z" finished-at="2019-10-18T21:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.PayOffOfferPostLoginTest.TC_15_usrInterestRate_Validation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="TC_15_usrInterestRate_Validation()[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e]" name="TC_15_usrInterestRate_Validation" duration-ms="87" started-at="2019-10-18T21:41:52Z" description="TC15: Validate the Interest Rate" depends-on-methods="com.Upgrade.test.PayOffOfferPostLoginTest.TC_14_usrLoanTerm" finished-at="2019-10-18T21:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_15_usrInterestRate_Validation -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e]" name="startTest" is-config="true" duration-ms="1" started-at="2019-10-18T21:41:52Z" finished-at="2019-10-18T21:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.PayOffOfferPostLoginTest.TC_16_usrApr_Validation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e]" name="endTestAndGetResult" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:52Z" finished-at="2019-10-18T21:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_15_usrInterestRate_Validation status=SUCCESS method=PayOffOfferPostLoginTest.TC_15_usrInterestRate_Validation()[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="TC_16_usrApr_Validation()[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e]" name="TC_16_usrApr_Validation" duration-ms="141" started-at="2019-10-18T21:41:52Z" description="TC16: Validate the APR" depends-on-methods="com.Upgrade.test.PayOffOfferPostLoginTest.TC_15_usrInterestRate_Validation" finished-at="2019-10-18T21:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_16_usrApr_Validation -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e]" name="endTestAndGetResult" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:52Z" finished-at="2019-10-18T21:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_16_usrApr_Validation status=SUCCESS method=PayOffOfferPostLoginTest.TC_16_usrApr_Validation()[pri:0, instance:com.Upgrade.test.PayOffOfferPostLoginTest@1810399e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+      </class> <!-- com.Upgrade.test.PayOffOfferPostLoginTest -->
+      <class name="com.Upgrade.test.LoginApiTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.Upgrade.test.LoginApiTest@32d992b2]" name="initialize" is-config="true" duration-ms="1" started-at="2019-10-18T21:41:52Z" finished-at="2019-10-18T21:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.LoginApiTest@32d992b2]" name="startTest" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:52Z" finished-at="2019-10-18T21:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.LoginApiTest.TC_18_loginAPI_ErrorCodeValidation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="TC_18_loginAPI_ErrorCodeValidation()[pri:0, instance:com.Upgrade.test.LoginApiTest@32d992b2]" name="TC_18_loginAPI_ErrorCodeValidation" duration-ms="2477" started-at="2019-10-18T21:41:52Z" description="TC18: Validate whether the error code 401 is displayed for invlaid credentials" finished-at="2019-10-18T21:41:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_18_loginAPI_ErrorCodeValidation -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.LoginApiTest@32d992b2]" name="endTestAndGetResult" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:55Z" finished-at="2019-10-18T21:41:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_18_loginAPI_ErrorCodeValidation status=SUCCESS method=LoginApiTest.TC_18_loginAPI_ErrorCodeValidation()[pri:0, instance:com.Upgrade.test.LoginApiTest@32d992b2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="TC_19_loginAPI_AttributeValidation()[pri:0, instance:com.Upgrade.test.LoginApiTest@32d992b2]" name="TC_19_loginAPI_AttributeValidation" duration-ms="1022" started-at="2019-10-18T21:41:55Z" description="TC19: Validate whether the response returns the correct attribute" finished-at="2019-10-18T21:41:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_19_loginAPI_AttributeValidation -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.LoginApiTest@32d992b2]" name="startTest" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:55Z" finished-at="2019-10-18T21:41:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.LoginApiTest.TC_19_loginAPI_AttributeValidation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.LoginApiTest@32d992b2]" name="endTestAndGetResult" is-config="true" duration-ms="1" started-at="2019-10-18T21:41:56Z" finished-at="2019-10-18T21:41:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_19_loginAPI_AttributeValidation status=SUCCESS method=LoginApiTest.TC_19_loginAPI_AttributeValidation()[pri:0, instance:com.Upgrade.test.LoginApiTest@32d992b2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="TC_17_loginAPI_SuccessCodeValidation()[pri:0, instance:com.Upgrade.test.LoginApiTest@32d992b2]" name="TC_17_loginAPI_SuccessCodeValidation" duration-ms="782" depends-on-groups="CreateAccountTest, CheckYourRateTest, PayOffOfferTest, LoginTest, PayOffOfferPostLoginTest" started-at="2019-10-18T21:41:56Z" description="TC17: Validate the login api retruns success status code 200" finished-at="2019-10-18T21:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_17_loginAPI_SuccessCodeValidation -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.LoginApiTest@32d992b2]" name="startTest" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:56Z" finished-at="2019-10-18T21:41:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.LoginApiTest.TC_17_loginAPI_SuccessCodeValidation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.LoginApiTest@32d992b2]" name="endTestAndGetResult" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:57Z" finished-at="2019-10-18T21:41:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_17_loginAPI_SuccessCodeValidation status=SUCCESS method=LoginApiTest.TC_17_loginAPI_SuccessCodeValidation()[pri:0, instance:com.Upgrade.test.LoginApiTest@32d992b2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+      </class> <!-- com.Upgrade.test.LoginApiTest -->
+      <class name="com.Upgrade.test.CheckYourRateTest">
+        <test-method status="PASS" signature="loadDriver(java.lang.String)[pri:0, instance:com.Upgrade.test.CheckYourRateTest@7ac7a4e4]" name="loadDriver" is-config="true" duration-ms="7063" started-at="2019-10-18T21:41:15Z" finished-at="2019-10-18T21:41:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadDriver -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.Upgrade.test.CheckYourRateTest@7ac7a4e4]" name="initialize" is-config="true" duration-ms="40" started-at="2019-10-18T21:41:22Z" finished-at="2019-10-18T21:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.CheckYourRateTest@7ac7a4e4]" name="startTest" is-config="true" duration-ms="7" started-at="2019-10-18T21:41:22Z" finished-at="2019-10-18T21:41:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.CheckYourRateTest.TC_01_landingPageurlValidation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="TC_01_landingPageurlValidation()[pri:0, instance:com.Upgrade.test.CheckYourRateTest@7ac7a4e4]" name="TC_01_landingPageurlValidation" duration-ms="6066" started-at="2019-10-18T21:41:22Z" description="TC01: Verify whether the ladning page url is correct " finished-at="2019-10-18T21:41:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_landingPageurlValidation -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.CheckYourRateTest@7ac7a4e4]" name="endTestAndGetResult" is-config="true" duration-ms="5" started-at="2019-10-18T21:41:28Z" finished-at="2019-10-18T21:41:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_landingPageurlValidation status=SUCCESS method=CheckYourRateTest.TC_01_landingPageurlValidation()[pri:0, instance:com.Upgrade.test.CheckYourRateTest@7ac7a4e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.CheckYourRateTest@7ac7a4e4]" name="startTest" is-config="true" duration-ms="1" started-at="2019-10-18T21:41:28Z" finished-at="2019-10-18T21:41:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.CheckYourRateTest.TC_02_emptyField_Validation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="TC_02_emptyField_Validation()[pri:0, instance:com.Upgrade.test.CheckYourRateTest@7ac7a4e4]" name="TC_02_emptyField_Validation" duration-ms="439" started-at="2019-10-18T21:41:28Z" description="TC02: Validate the Check your Rate does not accept empty field" depends-on-methods="com.Upgrade.test.CheckYourRateTest.TC_01_landingPageurlValidation" finished-at="2019-10-18T21:41:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_emptyField_Validation -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.CheckYourRateTest@7ac7a4e4]" name="startTest" is-config="true" duration-ms="1" started-at="2019-10-18T21:41:29Z" finished-at="2019-10-18T21:41:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.CheckYourRateTest.TC_03_loanAmount_Validation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.CheckYourRateTest@7ac7a4e4]" name="endTestAndGetResult" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:29Z" finished-at="2019-10-18T21:41:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_02_emptyField_Validation status=SUCCESS method=CheckYourRateTest.TC_02_emptyField_Validation()[pri:0, instance:com.Upgrade.test.CheckYourRateTest@7ac7a4e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="TC_03_loanAmount_Validation()[pri:0, instance:com.Upgrade.test.CheckYourRateTest@7ac7a4e4]" name="TC_03_loanAmount_Validation" duration-ms="502" started-at="2019-10-18T21:41:29Z" description="TC03: Validate the loan amount does not accept below 1000 and above 50000" depends-on-methods="com.Upgrade.test.CheckYourRateTest.TC_02_emptyField_Validation" finished-at="2019-10-18T21:41:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_loanAmount_Validation -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.CheckYourRateTest@7ac7a4e4]" name="startTest" is-config="true" duration-ms="1" started-at="2019-10-18T21:41:29Z" finished-at="2019-10-18T21:41:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.CheckYourRateTest.TC_04_checkYourRate_Validation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.CheckYourRateTest@7ac7a4e4]" name="endTestAndGetResult" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:29Z" finished-at="2019-10-18T21:41:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_03_loanAmount_Validation status=SUCCESS method=CheckYourRateTest.TC_03_loanAmount_Validation()[pri:0, instance:com.Upgrade.test.CheckYourRateTest@7ac7a4e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="TC_04_checkYourRate_Validation()[pri:0, instance:com.Upgrade.test.CheckYourRateTest@7ac7a4e4]" name="TC_04_checkYourRate_Validation" duration-ms="706" started-at="2019-10-18T21:41:29Z" description="TC04: Validate Check your Rate functionality" depends-on-methods="com.Upgrade.test.CheckYourRateTest.TC_03_loanAmount_Validation" finished-at="2019-10-18T21:41:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_checkYourRate_Validation -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.CheckYourRateTest@7ac7a4e4]" name="endTestAndGetResult" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:30Z" finished-at="2019-10-18T21:41:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_04_checkYourRate_Validation status=SUCCESS method=CheckYourRateTest.TC_04_checkYourRate_Validation()[pri:0, instance:com.Upgrade.test.CheckYourRateTest@7ac7a4e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="tearDownDriver()[pri:0, instance:com.Upgrade.test.CheckYourRateTest@7ac7a4e4]" name="tearDownDriver" is-config="true" duration-ms="1046" started-at="2019-10-18T21:41:57Z" finished-at="2019-10-18T21:41:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- com.Upgrade.test.CheckYourRateTest -->
+      <class name="com.Upgrade.test.CreateAccountTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.Upgrade.test.CreateAccountTest@6d78f375]" name="initialize" is-config="true" duration-ms="15" started-at="2019-10-18T21:41:30Z" finished-at="2019-10-18T21:41:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.CreateAccountTest@6d78f375]" name="startTest" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:30Z" finished-at="2019-10-18T21:41:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.CreateAccountTest.TC_20_emailFieldValidation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="TC_20_emailFieldValidation()[pri:0, instance:com.Upgrade.test.CreateAccountTest@6d78f375]" name="TC_20_emailFieldValidation" duration-ms="983" depends-on-groups="CheckYourRateTest" started-at="2019-10-18T21:41:30Z" description="TC20: Validate Email field whether it doesn&#039;t accepts an in-valid email" finished-at="2019-10-18T21:41:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_20_emailFieldValidation -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.CreateAccountTest@6d78f375]" name="startTest" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:31Z" finished-at="2019-10-18T21:41:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.CreateAccountTest.TC_21_passwordFieldValidation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.CreateAccountTest@6d78f375]" name="endTestAndGetResult" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:31Z" finished-at="2019-10-18T21:41:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_20_emailFieldValidation status=SUCCESS method=CreateAccountTest.TC_20_emailFieldValidation()[pri:0, instance:com.Upgrade.test.CreateAccountTest@6d78f375] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="TC_21_passwordFieldValidation()[pri:0, instance:com.Upgrade.test.CreateAccountTest@6d78f375]" name="TC_21_passwordFieldValidation" duration-ms="491" started-at="2019-10-18T21:41:31Z" description="TC21: Validate password field whether it doesn&#039;t  accepts an in- valid password" depends-on-methods="com.Upgrade.test.CreateAccountTest.TC_20_emailFieldValidation" finished-at="2019-10-18T21:41:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_21_passwordFieldValidation -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.CreateAccountTest@6d78f375]" name="endTestAndGetResult" is-config="true" duration-ms="1" started-at="2019-10-18T21:41:31Z" finished-at="2019-10-18T21:41:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_21_passwordFieldValidation status=SUCCESS method=CreateAccountTest.TC_21_passwordFieldValidation()[pri:0, instance:com.Upgrade.test.CreateAccountTest@6d78f375] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.CreateAccountTest@6d78f375]" name="startTest" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:31Z" finished-at="2019-10-18T21:41:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.CreateAccountTest.TC_05_basicInformation_Validation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="TC_05_basicInformation_Validation()[pri:0, instance:com.Upgrade.test.CreateAccountTest@6d78f375]" name="TC_05_basicInformation_Validation" duration-ms="4464" started-at="2019-10-18T21:41:31Z" description="TC05: Validate whether the user can enter Basic Information and create an account" depends-on-methods="com.Upgrade.test.CreateAccountTest.TC_21_passwordFieldValidation" finished-at="2019-10-18T21:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_basicInformation_Validation -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.CreateAccountTest@6d78f375]" name="endTestAndGetResult" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:36Z" finished-at="2019-10-18T21:41:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_05_basicInformation_Validation status=SUCCESS method=CreateAccountTest.TC_05_basicInformation_Validation()[pri:0, instance:com.Upgrade.test.CreateAccountTest@6d78f375] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+      </class> <!-- com.Upgrade.test.CreateAccountTest -->
+      <class name="com.Upgrade.test.LoginTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.Upgrade.test.LoginTest@5f375618]" name="initialize" is-config="true" duration-ms="3" started-at="2019-10-18T21:41:45Z" finished-at="2019-10-18T21:41:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.LoginTest@5f375618]" name="startTest" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:45Z" finished-at="2019-10-18T21:41:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.LoginTest.TC_08_loginUrl_validation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="TC_08_loginUrl_validation()[pri:0, instance:com.Upgrade.test.LoginTest@5f375618]" name="TC_08_loginUrl_validation" duration-ms="1858" depends-on-groups="CreateAccountTest, CheckYourRateTest, PayOffOfferTest" started-at="2019-10-18T21:41:45Z" description="TC08: Validate the login page Url" finished-at="2019-10-18T21:41:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_08_loginUrl_validation -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.LoginTest@5f375618]" name="endTestAndGetResult" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:47Z" finished-at="2019-10-18T21:41:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_08_loginUrl_validation status=SUCCESS method=LoginTest.TC_08_loginUrl_validation()[pri:0, instance:com.Upgrade.test.LoginTest@5f375618] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="TC_09_manadatoryField_Validation()[pri:0, instance:com.Upgrade.test.LoginTest@5f375618]" name="TC_09_manadatoryField_Validation" duration-ms="392" started-at="2019-10-18T21:41:47Z" description="TC09: Validate the Mandatory Error fields in the login page" depends-on-methods="com.Upgrade.test.LoginTest.TC_08_loginUrl_validation" finished-at="2019-10-18T21:41:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_09_manadatoryField_Validation -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.LoginTest@5f375618]" name="startTest" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:47Z" finished-at="2019-10-18T21:41:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.LoginTest.TC_09_manadatoryField_Validation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.LoginTest@5f375618]" name="endTestAndGetResult" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:47Z" finished-at="2019-10-18T21:41:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_09_manadatoryField_Validation status=SUCCESS method=LoginTest.TC_09_manadatoryField_Validation()[pri:0, instance:com.Upgrade.test.LoginTest@5f375618] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.LoginTest@5f375618]" name="startTest" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:47Z" finished-at="2019-10-18T21:41:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.LoginTest.TC_10_incorrectField_Validation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="TC_10_incorrectField_Validation()[pri:0, instance:com.Upgrade.test.LoginTest@5f375618]" name="TC_10_incorrectField_Validation" duration-ms="1151" started-at="2019-10-18T21:41:47Z" description="TC10: Validate whether the incorrect credentials error messages are displayed" depends-on-methods="com.Upgrade.test.LoginTest.TC_09_manadatoryField_Validation" finished-at="2019-10-18T21:41:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_10_incorrectField_Validation -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.LoginTest@5f375618]" name="endTestAndGetResult" is-config="true" duration-ms="1" started-at="2019-10-18T21:41:48Z" finished-at="2019-10-18T21:41:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_10_incorrectField_Validation status=SUCCESS method=LoginTest.TC_10_incorrectField_Validation()[pri:0, instance:com.Upgrade.test.LoginTest@5f375618] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Upgrade.test.LoginTest@5f375618]" name="startTest" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:48Z" finished-at="2019-10-18T21:41:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Upgrade.test.LoginTest.TC_11_SigninSuccess_Validation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="TC_11_SigninSuccess_Validation()[pri:0, instance:com.Upgrade.test.LoginTest@5f375618]" name="TC_11_SigninSuccess_Validation" duration-ms="3777" started-at="2019-10-18T21:41:48Z" description="TC11: validate whether the loign is successful" depends-on-methods="com.Upgrade.test.LoginTest.TC_10_incorrectField_Validation" finished-at="2019-10-18T21:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_11_SigninSuccess_Validation -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.Upgrade.test.LoginTest@5f375618]" name="endTestAndGetResult" is-config="true" duration-ms="0" started-at="2019-10-18T21:41:52Z" finished-at="2019-10-18T21:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_11_SigninSuccess_Validation status=SUCCESS method=LoginTest.TC_11_SigninSuccess_Validation()[pri:0, instance:com.Upgrade.test.LoginTest@5f375618] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+      </class> <!-- com.Upgrade.test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
